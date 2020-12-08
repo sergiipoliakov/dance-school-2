@@ -1,5 +1,5 @@
 // body {background: #ebcacb;}
-a {
+.button-link {
   text-decoration: none;
   outline: none;
   display: inline-block;
@@ -14,13 +14,13 @@ a {
   position: relative;
   overflow: hidden;
 }
-span {
+.button {
   font-family: 'Montserrat', sans-serif;
   position: relative;
   z-index: 5;
 }
-a:before,
-a:after {
+.button-link:before,
+.button-link:after {
   content: '';
   position: absolute;
   top: 0;
@@ -28,17 +28,17 @@ a:after {
   right: 0;
   left: 0;
 }
-a:before {
+.button-link:before {
   transform: translateX(-100%);
   background: white;
   transition: transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
-a:after {
+.button-link:after {
   background: $accent-color;
   transform: translateX(100%);
   transition: transform 0.3s cubic-bezier(0.16, 0.73, 0.58, 0.62) 0.3s;
 }
-a:hover:before,
-a:hover:after {
+.button-link:hover:before,
+.button-link:hover:after {
   transform: translateX(0);
 }
