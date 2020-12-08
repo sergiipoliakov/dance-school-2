@@ -1,16 +1,16 @@
-@import "./utils/variables";
-@import "./utils/placeholders";
-@import "./utils/mixins";
-@import "./base/normalize";
-@import "./components/page-header";
-@import "./components/logo";
+@import './fonts.scss';
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './base/normalize';
+@import './components/header/module';
 
-$socialIcons: "facebook", "github", "linkedin", "twitter", "instagram";
-$techIcons: "html", "css", "js";
+// $socialIcons: 'facebook', 'github', 'linkedin', 'twitter', 'instagram';
+// $techIcons: 'html', 'css', 'js';
 
-@include generateIcons($socialIcons);
-@include generateIcons($techIcons);
+// @include generateIcons($socialIcons);
+// @include generateIcons($techIcons);
 
 body {
-	background-color: red;
+  background-image: url('../images/main-bg-img.jpg');
 }
