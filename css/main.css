@@ -356,7 +356,7 @@ summary {
   margin-left: auto;
   margin-right: auto;
   height: 480px;
-  background-image: url("../../../images/slider1-backgroound-img.jpg");
+  background-image: url("../../../images/slider1.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -370,7 +370,7 @@ summary {
   margin-left: auto;
   margin-right: auto;
   height: 480px;
-  background-image: url("../../../images/h4-slider2-backgroound-img.jpg");
+  background-image: url("../../../images/slider2.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -384,7 +384,7 @@ summary {
   margin-left: auto;
   margin-right: auto;
   height: 480px;
-  background-image: url("../../../images/h4-slider3-backgroound-img.jpg");
+  background-image: url("../../../images/slider3.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
