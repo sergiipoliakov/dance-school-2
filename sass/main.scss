@@ -1,0 +1,16 @@
+@import "./utils/variables";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+@import "./base/normalize";
+@import "./components/page-header";
+@import "./components/logo";
+
+$socialIcons: "facebook", "github", "linkedin", "twitter", "instagram";
+$techIcons: "html", "css", "js";
+
+@include generateIcons($socialIcons);
+@include generateIcons($techIcons);
+
+body {
+	background-color: red;
+}
