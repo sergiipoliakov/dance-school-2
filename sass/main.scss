@@ -3,6 +3,7 @@
 @import './utils/placeholders';
 @import './utils/mixins';
 @import './base/normalize';
+@import './utils/buttons';
 @import './components/header/module';
 
 // $socialIcons: 'facebook', 'github', 'linkedin', 'twitter', 'instagram';
@@ -12,5 +13,28 @@
 // @include generateIcons($techIcons);
 
 body {
+  font-family: Lato, sans-serif;
   background-image: url('../images/main-bg-img.jpg');
+  background-attachment: fixed;
+
+  // background-repeat: no-repeat;
+  // background-size: contain;
+}
+.container {
+  // background-color: $bg-color;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  // padding: 0;
+}
+.link {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
