@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,GAAG,EAAE,CAAC;EACX,OAAO,EAAE,WAAW;EACpB,MAAM,EAAE,aAAa;CACtB",
+    "sources": [
+        "../sass/components/footer.scss"
+    ],
+    "names": [],
+    "file": "footer.css"
+}

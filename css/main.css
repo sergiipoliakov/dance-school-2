@@ -625,6 +625,13 @@ nav a {
   font-weight: 700;
 }
 
+.futter {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 1px solid red;
+}
+
 @media screen and (min-width: 900px) {
   body {
     background-color: orange;
